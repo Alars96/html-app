@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sell an game id</title>
+</head>
+<body background="{{ url_for('static', filename='al.png') }}">
+    <audio src="{{ url_for('static', filename='song2.mp3') }}" autoplay loop></audio>
+    <form action="{{ url_for("sellid")}}" method="post">
+<CENTER><h1 style="color: green">sell youer ID</h1></CENTER>
+<hr>
+<center><label for="firstname"></label> </center>
+<center><input type="text" id="firstname" name="name" placeholder="Enter youer name"></center>
+<br><center><input type="text"id="sname" name="phone" placeholder="Enter phone number"></center><br><center><input type="text"id="sname" name="game" placeholder="Enter game name"></center><br><center><input type="text"id="sname" name="gameid" placeholder="Enter game id"></center> 
+<br><center><button type="submit">submit</button> </center>
+</body>
+</html>
